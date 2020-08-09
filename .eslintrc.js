@@ -16,9 +16,10 @@ module.exports = {
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
-  plugins: [],
+  plugins: ['simple-import-sort'],
   // add your custom rules here
   rules: {
     'react/prop-types': 1,
+    'simple-import-sort/sort': 'error',
   },
 };
